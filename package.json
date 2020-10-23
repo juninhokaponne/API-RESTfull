@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juninhokaponne/API-RESTfull.git"
+  },
+  "author": "Gilson Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juninhokaponne/API-RESTfull/issues"
+  },
+  "homepage": "https://github.com/juninhokaponne/API-RESTfull#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
