@@ -1,18 +1,12 @@
-const express = require('express');
-let routesIndex = require('./routes/index');
-let routesUsers = require('./routes/users');
-let routerSignup = require('./routes/signup');
+let express = require('express');
+var routes = express.Router();
 
-let app = express();
+routes.get('/', (req, res) => {
 
-app.use(routesIndex);
-app.use(routesUsers);
-
-
-
-
-app.listen(3000, '127.0.0.1', ()=>{
-    
-    console.log('Servidor rodando');
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/html');
+    res.end('<h1>Servidor Rodando</h1>');
 
 });
+
+module.exports = routes;
